@@ -91,8 +91,5 @@ sendMail({
   })
 
 });
-return res.send({success: true});
-});
-
 
 module.exports = router;

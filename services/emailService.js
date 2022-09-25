@@ -18,8 +18,4 @@ async function sendMail({ from, to, subject, text, html}) {
       html
 
     });
-
-    console.log(info);
 }
-
-module.exports = sendMail;
